@@ -6,6 +6,7 @@ from app import app, db
 from app.forms import LoginForm, RegistrationForm, EditProfileForm
 from app.models import User
 
+
 @app.before_request
 def before_request():
     if current_user.is_authenticated:
@@ -70,7 +71,7 @@ def register():
 @app.route('/user/<username>')
 @login_required
 def user(username):
-    user = User.query.filter_by(username=username).first_or_404
+    user = User.query.filter_by(username=username).first_or_404()
     posts = [
         {'author': user, 'body': 'Test post #1'},
         {'author': user, 'body': 'Test post #2'}
@@ -90,4 +91,4 @@ def edit_profile():
     elif request.method == 'GET':
         form.username.data = current_user.username
         form.about_me.data = current_user.about_me
-    return render_template('edit profile.html', title='Edit Profile', form=form)
+    return render_template('edit_profile.html', title='Edit Profile', form=form)
