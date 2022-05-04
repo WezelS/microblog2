@@ -68,3 +68,11 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 [parameters: ('Susan', 'hyuser kykyryser', 3)]
 (Background on this error at: https://sqlalche.me/e/14/gkpj)
 2022-05-03 16:43:28,192 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 17:21:07,652 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 17:23:16,994 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 17:23:38,899 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 19:20:38,948 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 19:47:10,131 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 20:08:44,011 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 20:29:58,154 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
+2022-05-03 20:29:58,170 INFO: Microblog startup [in C:\Users\user\Desktop\My_Py\microblog2\app\__init__.py:41]
